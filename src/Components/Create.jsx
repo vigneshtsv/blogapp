@@ -32,7 +32,7 @@ function Create() {
     <div className='homeWrapper'>
     <div className="formWrapper">
     <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+      <Form.Group className="mb-3">
         <Form.Label>Title</Form.Label>
         <Form.Control type="text" placeholder="Title" onChange={(e)=>{setTitle(e.target.value)}}/>
       </Form.Group>

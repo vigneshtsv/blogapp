@@ -56,7 +56,7 @@ let [blogs,setBlogs] = useState([])
   return <div className="container-fluid">
           <TopBar/>
     <div>
-    <Table striped bordered hover size="sm">
+    <Table striped bordered hover>
       <thead>
         <tr>
           <th>#</th>
@@ -73,7 +73,7 @@ let [blogs,setBlogs] = useState([])
             return <tr key={i}>
                <td>{i+1}</td>
             <td>{e.title}</td>
-            <td><img src={e.image} alt={e.title} style={{width:'100px'}}/>
+            <td><img src={e.image} alt={e.title} style={{width:'50px'}}/>
             </td>
             <td><div style={{width:"300px",oveflow:"hidden",whiteSpace:"nowrap",textOverflow:"ellipsis"}}>{e.description}</div></td>
             <td>

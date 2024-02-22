@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-function BlogCard(title,image,description) {
+function BlogCard({title,image,description}) {
   return <div className='mx-auto'>
     <Card style={{ width: '30rem',padding:"10px"}}>
       <Card.Title>{title}</Card.Title>
